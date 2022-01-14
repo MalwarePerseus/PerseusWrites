@@ -1,9 +1,10 @@
 import React from 'react'
 
-const PostCard = () => {
+const PostCard = ({ post }) => {
     return (
         <div>
-            Post Card
+            {post.title}
+            {post.excerpt}
         </div>
     )
 }
